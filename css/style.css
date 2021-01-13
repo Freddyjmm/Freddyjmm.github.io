@@ -1,0 +1,183 @@
+body
+{
+    background-color:#f8f9fa;
+}
+
+#browser-bar nav
+{
+    color:white;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#separetor
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #000000;
+}
+
+#hero-section
+{
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#photos
+{
+    padding-left: 15%;
+    padding-top: 90px;
+    width: 50%;
+    height: 50%;
+}
+
+#text
+{
+    margin-top: 10px;
+    margin-left: 1%;
+    color:rgb(219, 214, 214);
+}
+
+#text h1
+{
+    font-size: 4rem;
+    margin-left: -70px;
+}
+
+#text h2
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+#text h3
+{
+    margin-top: -8px;
+}
+
+#text h4
+{
+    margin-top: -8px;
+}
+
+.background-trans
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 20px;
+}
+
+.one_identation
+{
+    padding-left: 30px;
+}
+
+.remark
+{
+    color:red;
+}
+
+#main
+{
+    margin-top: 50px;
+    font-size: 30px;
+    min-height: 100%;
+    color:rgb(211, 208, 208);
+}
+
+#main p
+{
+    padding-left:30px;
+    padding-right:30px;
+    text-align: justify;
+}
+
+#main h3
+{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
+.container
+{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.event
+{
+    flex-basis: 300px;
+    height: 370px;
+    margin: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+    background: #eceff4;
+    color:black;
+}
+
+.event img {
+    width: 260px;
+    height: 195px;
+    object-fit: cover;
+  }
+
+.event-detail
+{
+    margin: 20px 20px;
+    margin-top: -40px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-url
+{
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#final-section h3
+{
+    text-align: center;
+    font-size: 2em;
+    color: #f8f9fa;
+    margin-bottom: 0;
+    height: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+#final-section footer
+{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #212529;
+}
+
+#link-image
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 1000px;
+    flex-wrap: wrap;
+    text-decoration: None;
+    color:#f8f9fa;
+}
