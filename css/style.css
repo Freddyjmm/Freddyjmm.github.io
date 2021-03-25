@@ -127,11 +127,12 @@ body
     color:black;
 }
 
-.event img {
+.event img 
+{
     width: 260px;
     height: 195px;
-    object-fit: cover;
-  }
+    object-fit: contain;
+}
 
 .event-detail
 {
@@ -140,6 +141,11 @@ body
     background-color: white;
     padding: 10px;
     text-align: center;
+}
+
+.event-title
+{
+    text-shadow: 0px 1px 2px white;
 }
 
 .event-url
